@@ -43,6 +43,7 @@ const SideNav = () => {
     { name: 'Experience', id: 'experience', icon: <WorkIcon /> },
     { name: 'Projects', id: 'projects', icon: <LayersIcon /> },
     { name: 'Education', id: 'education', icon: <SchoolIcon /> },
+    {name:'Contact Us',id:'conatactus',icon:<MessageIcon/>}
   ];
 
   const scrollToSection = (id) => {

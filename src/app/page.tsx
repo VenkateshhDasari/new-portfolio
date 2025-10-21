@@ -1008,7 +1008,7 @@ const EducationTimeline = () => {
     {
       years: "2016 - 2017",
       degree: "10th",
-      institution: "ZPHS, Cherukuru",
+      institution: "ZPHS, Nagullanka",
       additionalInfo: "Secondary School Certificate (SSC)",
       cgpa: "9.8",
       totalCgpa: 10,

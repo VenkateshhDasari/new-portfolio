@@ -21,11 +21,11 @@ const chaoticPulseAnimation = `
 
 const Preloader = () => {
   const dots = [
-    { size: 22, color: '#e1ad01', x: 0, y: -30, delay: 0 },
-    { size: 18, color: '#f06292', x: 50, y: -20, delay: 0.2 },
-    { size: 22, color: '#8e24aa', x: 40, y: 30, delay: 0.4 },
-    { size: 22, color: '#f06292', x: -50, y: 0, delay: 0.6 },
-    { size: 12, color: '#8e24aa', x: -60, y: 40, delay: 0.8 },
+    { size: 22, color: '#e1ad01', x: 0, y: -30, delay: 10 },
+    { size: 18, color: '#f06292', x: 50, y: -20, delay: 1.2 },
+    { size: 22, color: '#8e24aa', x: 40, y: 30, delay: 2.3 },
+    { size: 22, color: '#f06292', x: -50, y: 0, delay: 8.1 },
+    { size: 12, color: '#8e24aa', x: -60, y: 40, delay: 1.5 },
   ];
 
   return (
@@ -50,8 +50,8 @@ const Preloader = () => {
               key={index}
               style={{
                 position: 'absolute',
-                top: '50%',
-                left: '50%',
+                top: '80%',
+                left: '80%',
                 width: dot.size,
                 height: dot.size,
                 marginLeft: dot.x,
@@ -61,6 +61,10 @@ const Preloader = () => {
                 animation: `chaoticPulse 2s ease-in-out infinite`,
                 animationDelay: `${dot.delay}s`,
                 transformOrigin: 'center center',
+                textDecoration: 'none',
+                boxShadow: `0 0 10px ${dot.color}`,
+                transition: 'transform 0.3s ease-in-out',
+                willChange: 'transform, opacity',
               }}
             />
           ))}
