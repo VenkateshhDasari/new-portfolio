@@ -43,7 +43,7 @@ const SideNav = () => {
     { name: 'Experience', id: 'experience', icon: <WorkIcon /> },
     { name: 'Projects', id: 'projects', icon: <LayersIcon /> },
     { name: 'Education', id: 'education', icon: <SchoolIcon /> },
-    {name:'Contact Us',id:'conatactus',icon:<MessageIcon/>}
+    {name:'Contact Us',id:'contactus',icon:<MessageIcon/>}
   ];
 
   const scrollToSection = (id) => {
@@ -138,14 +138,14 @@ const SideNav = () => {
       <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
        <IconButton
   component="a"
-  href="https://wa.me/916301774138"
+  href="https://wa.me/4407823724421"
   target="_blank"
   rel="noopener noreferrer"
 >
   <WhatsAppIcon sx={{ fontSize: 32 }} />
 </IconButton>
         <Typography variant="body2" sx={{ color: '#8b8b9e', textAlign: 'center' }}>
-          &copy; 2025 Latha Kumpatla.
+          &copy; 2025 Venkatesh Dasari.
         </Typography>
       </Box>
     </Box>
@@ -251,7 +251,7 @@ const SideNav = () => {
                   <WhatsAppIcon sx={{ fontSize: 32 }} />
                 </IconButton>
                 <Typography variant="body2" sx={{ color: '#8b8b9e', textAlign: 'center' }}>
-                  &copy; 2025 Latha Kumpatla.
+                  &copy; 2025 Venkatesh Dasari.
                 </Typography>
               </Box>
             </Box>

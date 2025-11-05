@@ -22,9 +22,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <title>Latha Kumpatla</title>
+        <title>Venkatesh Dasari</title>
        
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/venky.ico" />
       </head>
       <body>
         <Provider store={store}>
