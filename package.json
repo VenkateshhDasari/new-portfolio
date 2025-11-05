@@ -2,12 +2,15 @@
   "name": "my-next-app",
   "version": "0.1.0",
   "private": true,
-"homepage": "https://lathakumpatla.github.io/portfolio",
+"homepage": "https://venkateshhdasari.github.io/new-portfolio/",
 
 "scripts": {
   "dev": "next dev",
  "build": "next build",
-"deploy": "gh-pages -d out"
+"deploy": "gh-pages -d out",
+"start": "next start",
+"export": "next build && next export"
+
 }
 
 ,
