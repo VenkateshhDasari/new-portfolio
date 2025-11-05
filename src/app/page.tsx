@@ -121,7 +121,7 @@ const Home = () => {
     {
       title: "Food Delivery Website",
       description: "Foodmunch is a fully functional food ordering web application that enables users to browse menus and seamlessly place orders for either delivery or collection with a single click...",
-      imageSrc: "food.png",
+      imageSrc: "Food.png",
       LiveUrl: "https://foodmunch-demo.vercel.app/"
     },
     {
@@ -157,7 +157,7 @@ const Home = () => {
     {
       title: "Chat Bot",
       description: "Meet Our ChatBot is an interactive conversational AI application built with JavaScript that provides real-time user engagement. Users can interact with the chatbot through natural conversation, asking questions and receiving instant responses. Features include message parsing, dynamic response generation, and interactive UI with animated chatbot avatars. This project demonstrates proficiency in JavaScript event handling, DOM manipulation.",
-      imageSrc: "Chatbot.png",
+      imageSrc: "ChatBot.png",
       LiveUrl: "" //
     },
     {
